@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>POS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>POS</h2>
+
+<input id="product" placeholder="Product name">
+<input id="price" type="number" placeholder="Price">
+<button onclick="addToCart()">Add</button>
+
+<h3>Cart</h3>
+<ul id="cart"></ul>
+
+<h3>Total: ₱<span id="total">0</span></h3>
+<button onclick="checkout()">Checkout</button>
+
+<script type="module" src="js/pos.js"></script>
+</body>
+</html>
